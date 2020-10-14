@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "TransformMoviesDF",
+				"description": "blah blah",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {

@@ -1,0 +1,19 @@
+{
+	"name": "Movies_Json_Sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "arunaktsstorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "MovieRatingAverages",
+				"folderPath": "Output4",
+				"fileSystem": "sample-data"
+			}
+		}
+	}
+}
